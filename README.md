@@ -1,28 +1,8 @@
 ETL Midterm Project – RITA
 
  Project Overview
-This project demonstrates a complete ETL (Extract, Transform, Load) process using Python and SQLite. The project simulates how sales data is extracted from source files, transformed to ensure data quality and enriched with new features and finally loaded into a structured database format for querying and analytics.
 
- Folder Structure
-├── data/
-│   ├── raw_data.csv
-│   └── incremental_data.csv
-├── transformed/
-│   ├── transformed_full.csv
-│   └── transformed_incremental.csv
-├── loaded/
-│   ├── full_data.db
-│   └── incremental_data.db
-├── screenshots/
-│   ├── extract_preview.png
-│   ├── transform_preview.png
-│   └── sql_preview.png
-├── etl_extract.ipynb
-├── etl_transform.ipynb
-├── etl_load.ipynb
-├── README.md
-└── .gitignore
-	
+This project demonstrates a complete ETL (Extract, Transform, Load) process using Python and SQLite. The project simulates how sales data is extracted from source files, transformed to ensure data quality and enriched with new features and finally loaded into a structured database format for querying and analytics.
 
  Dataset Description
 The project uses two datasets:
