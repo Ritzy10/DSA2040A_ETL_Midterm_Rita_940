@@ -109,6 +109,7 @@ These files typically contain the following fields:
 ## SCREENSHOTS
 
 *VISUALIZATIONS*
+
 <img src="screenshots/barplot.png" width="500">
 <img src="screenshots/barplot2.png" width="500">
 *Barplots*
