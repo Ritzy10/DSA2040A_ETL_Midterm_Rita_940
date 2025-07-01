@@ -72,6 +72,13 @@ These files typically contain the following fields:
   
 - Saves cleaned files to the transformed/ folder as transformed_full.csv and transformed_incremental.csv.
 
+#### Visualizations
+
+- **Bar Chart**: Total Sales by Month – shows revenue trends within 2024
+- **Horizontal Bar Chart**: Top 5 Products by Revenue – highlights best-selling products
+- **Histogram**: Distribution of Unit Prices – shows common pricing ranges
+
+
 ### 3. Load Phase – etl_load.ipynb
 - Loads the transformed CSVs.
 - Uses SQLite via pandas and sqlite3 to create two databases:
@@ -100,6 +107,13 @@ These files typically contain the following fields:
 
  
 ## SCREENSHOTS
+
+*VISUALIZATIONS*
+<img src="screenshots/barplot.png" width="500">
+<img src="screenshots/barplot2.png" width="500">
+*Barplots*
+<img src="screenshots/histogram.png" width="500">
+*Histogram*
   
 <img src="screenshots/extract_preview.png" width="500">
 *Extract Phase – Data Preview*
