@@ -59,6 +59,9 @@ These files typically contain the following fields:
 - Uses pandas to inspect structure (.info()), preview rows (.head()) and identify missing values and duplicates.
 - Saves the datasets back into the data/ folder for consistency.
 
+<img src="screenshots/extract_preview.png" width="500">
+
+
 ### 2. Transform Phase – etl_transform.ipynb
 - Cleans and enriches both datasets using the following transformations:
   
@@ -72,11 +75,22 @@ These files typically contain the following fields:
   
 - Saves cleaned files to the transformed/ folder as transformed_full.csv and transformed_incremental.csv.
 
+<img src="screenshots/transform_preview.png" width="500">
+
+
 #### Visualizations
 
 - **Bar Chart**: Total Sales by Month – shows revenue trends within 2024
+
+<img src="screenshots/barplot.png" width="500">
+
 - **Horizontal Bar Chart**: Top 5 Products by Revenue – highlights best-selling products
+
+<img src="screenshots/barplot2.png" width="500">
+
 - **Histogram**: Distribution of Unit Prices – shows common pricing ranges
+
+<img src="screenshots/histogram.png" width="500">
 
 
 ### 3. Load Phase – etl_load.ipynb
@@ -86,6 +100,9 @@ These files typically contain the following fields:
   - incremental_data.db
 - Saves the databases in the loaded/ folder.
 - Executes SQL queries (SELECT * FROM full_data LIMIT 5) to verify.
+
+<img src="screenshots/sql_preview.png" width="500">
+
 
 ## Tools Used
 - Python 3.x
@@ -103,24 +120,3 @@ These files typically contain the following fields:
 3. Check the results in:
    - transformed/ for CSV output
    - loaded/ for database output
-
-
- 
-## SCREENSHOTS
-
-*VISUALIZATIONS*
-
-<img src="screenshots/barplot.png" width="500">
-<img src="screenshots/barplot2.png" width="500">
-*Barplots*
-<img src="screenshots/histogram.png" width="500">
-*Histogram*
-  
-<img src="screenshots/extract_preview.png" width="500">
-*Extract Phase – Data Preview*
-
-<img src="screenshots/transform_preview.png" width="500">
-*Transform Phase – After Applying Business Logic*
-
-<img src="screenshots/sql_preview.png" width="500">
-*Load Phase – SQL Query Output*
